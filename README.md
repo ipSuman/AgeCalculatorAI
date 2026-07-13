@@ -1,2 +1,7 @@
-# AgeCalculatorAI
-Age calculator Web App. My java code translated into HTML by ChatGPT. I want to learn GitHub.
+# Milestone 01 Material Core UI
+
+Suggested commit:
+
+git add .
+git commit -m "Material Core UI"
+git push
