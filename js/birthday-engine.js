@@ -1,0 +1,1 @@
+window.BirthdayEngine={calculate(){return {}}};

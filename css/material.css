@@ -1,0 +1,4 @@
+:root{--bg:#0f172a;--card:#1e293b;--fg:#eef2ff;--accent:#6366f1}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui}
+.card{background:var(--card);padding:20px;border-radius:18px;box-shadow:0 8px 24px #0004}
+button{background:var(--accent);color:#fff;border:0;border-radius:12px;padding:10px 14px;cursor:pointer}

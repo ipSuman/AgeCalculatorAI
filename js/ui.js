@@ -1,0 +1,1 @@
+window.UI={toast:m=>console.log('[Toast]',m),theme(){document.body.classList.toggle('light')}};

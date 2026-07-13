@@ -1,0 +1,1 @@
+const App={init(){themeBtn.onclick=()=>UI.theme();UI.toast('Architecture v2 loaded');console.log('Modules:',DateEngine,AgeEngine,BirthdayEngine,StatsEngine);}};window.onload=()=>App.init();

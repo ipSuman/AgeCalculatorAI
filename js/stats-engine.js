@@ -1,0 +1,1 @@
+window.StatsEngine={calculate(){return {}}};

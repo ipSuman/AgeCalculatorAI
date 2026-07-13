@@ -1,1 +1,46 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Material Core</title><link rel="stylesheet" href="style.css"></head><body><header class="topbar"><button id="menuBtn" class="icon-btn">☰</button><div class="title">Age Calculator AI</div><button id="themeBtn" class="icon-btn">☼</button></header><aside id="drawer" class="drawer"><h2>Menu</h2><a>Home</a><a>Statistics</a><a>History</a><a>Settings</a></aside><div id="backdrop" class="backdrop"></div><main class="container"><section class="card"><h1>Material Core UI</h1><div class="grid"><label class="field"><span>Name</span><input></label><label class="field"><span>DOB</span><input type="date"></label></div><div class="buttons"><button class="btn primary">Calculate</button><button class="btn tonal">Clear</button></div></section><section class="card"><div class="chips"><span class="chip">Age</span><span class="chip">Birthday</span><span class="chip">Stats</span></div></section></main><button id="fab" class="fab">+</button><div id="snackbar" class="snackbar">Welcome</div><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Age Calculator AI</title>
+<link rel="stylesheet" href="css/material.css">
+<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="logo">🎂 Age Calculator AI</div>
+  <button id="themeBtn">🌓</button>
+</header>
+
+<nav class="sidebar">
+  <button data-view="home">Home</button>
+  <button data-view="stats">Statistics</button>
+  <button data-view="history">History</button>
+  <button data-view="settings">Settings</button>
+</nav>
+
+<main id="view">
+<section class="card">
+<h2>Architecture v2</h2>
+<p>The application is now structured around reusable modules.</p>
+<ul>
+<li>UI</li>
+<li>DateEngine</li>
+<li>AgeEngine</li>
+<li>BirthdayEngine</li>
+<li>StatsEngine</li>
+<li>Storage (coming)</li>
+<li>Export (coming)</li>
+</ul>
+</section>
+</main>
+
+<script src="js/ui.js"></script>
+<script src="js/date-engine.js"></script>
+<script src="js/age-engine.js"></script>
+<script src="js/birthday-engine.js"></script>
+<script src="js/stats-engine.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

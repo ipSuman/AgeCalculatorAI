@@ -1,0 +1,1 @@
+window.AgeEngine={calculate(){return {}}};
